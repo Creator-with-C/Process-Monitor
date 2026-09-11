@@ -1,71 +1,72 @@
-A lightweight, high-performance Windows CLI process monitor built entirely with the native Windows API (WinAPI), tracking CPU, RAM, Disk I/O, and thread information while saving monitoring results to log files.
+A lightweight, high-performance Windows CLI process monitor built entirely with the native Windows API (WinAPI), tracking CPU, RAM, Disk I/O, and thread information while saving monitoring results to log files.<br>
 
-The application scans running processes and captures resource usage, disk I/O activity, and thread information. The collected data can be used for monitoring, debugging, and basic performance analysis.
+The application scans running processes and captures resource usage, disk I/O activity, and thread information. The collected data can be used for monitoring, debugging, and basic performance analysis.<br>
 
-1)Features
-2)Monitor running Windows processes
-3)Collect CPU usage
-4)Collect RAM / memory usage
-5)Collect Disk I/O information
-6)Monitor process threads
-7)Record thread IDs and priorities
-8)Save monitoring results to log files
-9)Command-line interface (CLI)
-10)Lightweight and designed for Windows
+1)Features<br>
+2)Monitor running Windows processes<br>
+3)Collect CPU usage<br>
+4)Collect RAM / memory usage<br>
+5)Collect Disk I/O information<br>
+6)Monitor process threads<br>
+7)Record thread IDs and priorities<br>
+8)Save monitoring results to log files<br>
+9)Command-line interface (CLI)<br>
+10)Lightweight and designed for Windows<br>
 
-Collected Information
-For each monitored process, the application can record information:
+Collected Information<br>
+For each monitored process, the application can record information:<br>
 
-1)CPU Usage:
-  Shows the CPU utilization of the monitored process.
-2)Memory Usage:
-  Shows the amount of memory currently used by the process and its percentage of total available      memory.
-3)Disk I/O:
-  The monitor records disk I/O activity performed by the process, including:
-  3a)Read operations
-  3b)Read bytes
-  3c)Write operations
-  3d)Write bytes
-  3e)Other I/O operations
-  3f)Other I/O bytes
-4)Thread Information:
- The application also collects information about threads belonging to the monitored process.
- For each thread, the monitor records:
-  4a)Thread ID
-  4b)Base Priority
-  4c)Delta Priority
+1)CPU Usage:<br>
+  Shows the CPU utilization of the monitored process.<br>
+2)Memory Usage:<br>
+  Shows the amount of memory currently used by the process and its percentage of total available      memory.<br>
+3)Disk I/O:<br>
+  The monitor records disk I/O activity performed by the process, including:<br>
+  3a)Read operations<br>
+  3b)Read bytes<br>
+  3c)Write operations<br>
+  3d)Write bytes<br>
+  3e)Other I/O operations<br>
+  3f)Other I/O bytes<br>
+4)Thread Information:<br>
+ The application also collects information about threads belonging to the monitored process.<br>
+ For each thread, the monitor records:<br>
+  4a)Thread ID<br>
+  4b)Base Priority<br>
+  4c)Delta Priority<br>
 
-Example Output
-A typical monitoring result may look like:
+Example Output<br>
+A typical monitoring result may look like:<br>
 
-CPU usage:0.50%
+CPU usage:0.50%<br>
 
-RAM usage:16.48 MB(0.2069%)
+RAM usage:16.48 MB(0.2069%)<br>
 
-DISK I/O information:
-Read Operation:1
-Read Operation Byte:60
-Write Operation:0
-Write Operation Bytes:0
-Other Operation:835
-Other Operation Bytes:41543
+DISK I/O information:<br>
+Read Operation:1<br>
+Read Operation Byte:60<br>
+Write Operation:0<br>
+Write Operation Bytes:0<br>
+Other Operation:835<br>
+Other Operation Bytes:41543<br>
 
-Tread ID=0x00001828
-Base Priority=8
-Delta Priority=0
+Tread ID=0x00001828<br>
+Base Priority=8<br>
+Delta Priority=0<br>
 
-Tread ID=0x00001EF4
-Base Priority=8
-Delta Priority=0
+Tread ID=0x00001EF4<br>
+Base Priority=8<br>
+Delta Priority=0<br>
 
-Purpose
-The main purpose of this project is to provide a lightweight command-line tool for inspecting the behavior and resource consumption of Windows processes.
+Purpose:<br>
+The main purpose of this project is to provide a lightweight command-line tool for inspecting the
+behavior and resource consumption of Windows processes.<br>
 
-Platform
-This application is designed for: Windows
+Platform:<br>
+This application is designed for: Windows<br>
 
-Project Status
-This project is currently under development.
+Project Status:<br>
+This project is currently under development.<br>
 
-Author
+Author:<br>
 Creator-with-C

@@ -68,5 +68,7 @@ This application is designed for: Windows<br>
 Project Status:<br>
 This project is currently under development.<br>
 
+WARING: the log file it truncates every time the monitor runs if you want to keep the file rename it.<br>
+
 Author:<br>
 Creator-with-C

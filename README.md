@@ -70,5 +70,13 @@ This project is currently under development.<br>
 
 WARING: the log file it truncates every time the monitor runs if you want to keep the file rename it.<br>
 
+⚠️Windows Defender Notice<br>
+
+Windows Defender may show a warning because this application is new and not yet widely recognized.<br>
+
+The .exe is available only from this official GitHub repository.<br>
+
+If you downloaded it from somewhere else, do not run it.<br>
+
 Author:<br>
 Creator-with-C
